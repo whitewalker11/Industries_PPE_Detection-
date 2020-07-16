@@ -6,9 +6,17 @@ To develop a robust Machine Learning / Computer Vision  model which would detect
 
 
 1.) Helmet (Yellow, White)
+
+
 2.) Face Mask
+
+
 3.) Gloves (Green, Yellow)
+
+
 4.) Shoes
+
+
 5.) Safety Goggles
 
 
