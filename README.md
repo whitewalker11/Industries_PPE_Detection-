@@ -1,1 +1,1 @@
-# Industries_PPE_Detection
+# PPE Kit Detection
