@@ -1,6 +1,6 @@
 # PPE Kit Detection
 
-While doing my intership the first Task given to me was PPE Kit Detection for real time workspace in Industries.
+While doing my Summer Intership the first Task given to me was PPE Kit Detection for real time workspace in Industries.
 # OBJECTIVE
 To develop a robust Machine Learning / Computer Vision  model which would detect the PPEs of the worker in respective production houses and which would display which PPE is missing or whether the person can go forward (All PPEs selected by model initiator are present). The model should be accurate and robust enough to detect the PPE in every case. There would be a GUI which the initiator/model operator would deal with, in that GUI the operator must be given an option to select which PPEs he/she wants to detect in a person. Also, the detection would be done via video feed coming directly from CCTV or from an external camera. So, the model would be running as long as plant is running. This project would be deployed at multiple production houses and hence it needs to be robust, accurate and modular in nature. The different PPEs are as follows:
 
