@@ -19,7 +19,7 @@ To develop a robust Machine Learning / Computer Vision  model which would detect
 
 5.) Safety Goggles
 
-#Download Model 
+# Download Model 
 LINK-<https://drive.google.com/drive/folders/1xmWKKN6LqgFLI1F2x1TvTIciga5funhg?usp=sharing>
 
 
