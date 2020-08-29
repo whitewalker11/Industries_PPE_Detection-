@@ -19,44 +19,44 @@ tt = tf.test.is_built_with_cuda()
 print(tt)
 
 
-def detect_and_predict_helmet(frame, startX, startY, endX, endY, masknet):
-    face = frame[startY:endY, startX:endX]
-    cv2.imshow("H", face)
-    face = cv2.cvtColor(face, cv2.COLOR_BGR2RGB)
-    face = cv2.resize(face, (224, 224))
-    face = img_to_array(face)
-    face = preprocess_input(face)
-    face = np.expand_dims(face, axis=0)
+def detect_and_predict_helmet(frame, startX, startY, endX, endY, helmetnet):
+    helmet_roi = frame[startY:endY, startX:endX]
+    cv2.imshow("H", helmet_roi)
+    helmet_roi = cv2.cvtColor(helmet_roi, cv2.COLOR_BGR2RGB)
+    helmet_roi = cv2.resize(helmet_roi, (224, 224))
+    helmet_roi = img_to_array(helemet_roi)
+    helmet_roi = preprocess_input(helmet_roi)
+    helmet_roi = np.expand_dims(helmet_roi, axis=0)
 
-    preds = masknet.predict(face)
+    preds = helemtnet.predict(helmet_roi)
 
     return (preds)
 
 
 def detect_and_predict_mask(frame, startX, startY, endX, endY, masknet):
-    face = frame[startY:endY, startX:endX]
-    cv2.imshow("M", face)
-    face = cv2.cvtColor(face, cv2.COLOR_BGR2RGB)
-    face = cv2.resize(face, (224, 224))
-    face = img_to_array(face)
-    face = preprocess_input(face)
-    face = np.expand_dims(face, axis=0)
+    mask_roi = frame[startY:endY, startX:endX]
+    cv2.imshow("M", mask_roi)
+    mask_roi = cv2.cvtColor(mask_roi, cv2.COLOR_BGR2RGB)
+    mask_roi = cv2.resize(mask_roi, (224, 224))
+    mask_roi = img_to_array(mask_roi)
+    mask_roi = preprocess_input(mask_roi)
+    mask_roi = np.expand_dims(mask_roi, axis=0)
 
-    preds = masknet.predict(face)
+    preds = masknet.predict(mask_roi)
 
     return (preds)
 
 
-def detect_and_predict_gloves(frame, startX, startY, endX, endY, masknet):
-    face = frame[startY:endY, startX:endX]
-    cv2.imshow("G", face)
-    face = cv2.cvtColor(face, cv2.COLOR_BGR2RGB)
-    face = cv2.resize(face, (224, 224))
-    face = img_to_array(face)
-    face = preprocess_input(face)
-    face = np.expand_dims(face, axis=0)
+def detect_and_predict_gloves(frame, startX, startY, endX, endY, glovesnet):
+    gloves_roi = frame[startY:endY, startX:endX]
+    cv2.imshow("G", gloves_roi)
+    gloves_roi = cv2.cvtColor(gloves_roi, cv2.COLOR_BGR2RGB)
+    gloves_roi = cv2.resize(gloves_roi, (224, 224))
+    gloves_roi = img_to_array(gloves_roi)
+    gloves_roi = preprocess_input(gloves_roi)
+    gloves_roi = np.expand_dims(gloves_roi, axis=0)
 
-    preds = masknet.predict(face)
+    preds = glovesnet.predict(gloves_roi)
 
     return (preds)
 
