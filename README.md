@@ -26,4 +26,19 @@ Download weight file for your person detection Model as i have used both YOLOv3 
 
 
 
-<img src="https://user-images.githubusercontent.com/48216786/87671993-e08fe980-c78f-11ea-8c87-ead1e616ca11.png" width="90%"></img> <img src="https://user-images.githubusercontent.com/48216786/87669583-e4217180-c78b-11ea-8d31-cb0f29109a0a.gif" width="70%"></img> <img src="https://user-images.githubusercontent.com/48216786/87670008-a3762800-c78c-11ea-9079-21cd313fc733.gif" width="70%"></img> <img src="https://user-images.githubusercontent.com/48216786/87671905-bccca380-c78f-11ea-8818-9295d6416c7e.gif" width="70%"></img> <img src="https://user-images.githubusercontent.com/48216786/87675129-99582780-c794-11ea-98db-a5ca4535e412.jpg" width="70%"></img> 
+<img src="https://user-images.githubusercontent.com/48216786/87671993-e08fe980-c78f-11ea-8c87-ead1e616ca11.png" width="90%"></img>
+
+
+# THIS IS PHASE-1 WORK SAMPLE IMAGE 
+
+
+
+<img src="https://user-images.githubusercontent.com/48216786/99996720-244fcb00-2de2-11eb-83d1-26a323ae20e6.png" width="70%"></img> 
+
+<img src="https://user-images.githubusercontent.com/48216786/87669583-e4217180-c78b-11ea-8d31-cb0f29109a0a.gif" width="70%"></img> <img src="https://user-images.githubusercontent.com/48216786/87670008-a3762800-c78c-11ea-9079-21cd313fc733.gif" width="70%"></img> <img src="https://user-images.githubusercontent.com/48216786/87671905-bccca380-c78f-11ea-8818-9295d6416c7e.gif" width="70%"></img> <img src="https://user-images.githubusercontent.com/48216786/87675129-99582780-c794-11ea-98db-a5ca4535e412.jpg" width="70%"></img> 
+
+# THIS IS PHASE-2 WORK SAMPLE IMAGE 
+
+
+
+<img src="https://user-images.githubusercontent.com/48216786/99997866-c58b5100-2de3-11eb-80ce-68ec959302e2.png" width="70%"></img> 
