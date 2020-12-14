@@ -1,0 +1,30 @@
+
+{
+    "cam": {
+        "UNIT1_IP": 0,
+        "UNIT3_IP": 0,
+        "UNIT4_IP": 0,
+        "UNIT5_IP": 0,
+        "UNIT6_IP": 0
+    },
+
+    "gui": {
+        "logo": "./widgets/6logo.png",
+        "upload": "./widgets/open_dir.png",
+        "upload2": "./widgets/extract.png",
+        "windowtitle": "PPE Inspection Window",
+        "display_text": "Hand Granade Parts Inspection Tool"
+    },
+
+
+    "model": {
+        "maskmodel_path": "./data/1_maskmodel"
+    },
+
+    "cam_slice": {
+        "y1":0,
+        "y2": 400,
+        "x1": 300,
+        "x2": 900
+    }
+}
